@@ -1,0 +1,10 @@
+var usuario=prompt("digite o nome do usuario")
+
+console.log("usuario")
+
+
+var login =prompt("faca seu login");
+
+console.log(login);
+
+alert("login feito com sucesso");

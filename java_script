@@ -1,0 +1,30 @@
+var meuFormulario = document.getElementById("cadastro_professor");
+meuFormulario.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+
+  //Pega o valor do input email e atribui para a
+  //variável email
+  var email = document.getElementById("email").value;
+
+  //Pega o valor do input senha e atribui para a
+  //variável senha
+  var senha = Number(  document.getElementById("senha").value   );
+
+
+
+  if ( email == "email@hotmail.com" &&
+       senha === 123 ) {
+
+    console.log("email correto");
+
+  } else {
+
+    alert("Olha, você digitou seu email errado, tente novamente");
+    console.log("email errado");
+  }
+
+
+
+
+});
